@@ -91,7 +91,7 @@ body {
   font-size: 11px;
 }
 
-.navbar-nav > li:hover {
+.navbar-left > li:hover {
     background-color: #e7e7e7;
 
   box-shadow: 0 -10px pink inset;
@@ -104,10 +104,22 @@ body {
   transition:.5s;
   }
 
+.navbar-right > li:hover {
+    background-color: #e7e7e7;
+
+  box-shadow: 0 -10px gold inset;
+
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+  }
+
 .navbar-nav .active > a {
   box-shadow: 0 -10px pink inset;
 }
-
 
 .navbar-header > a:hover {
    box-shadow: 0 -30px #e7e7e7 inset;
