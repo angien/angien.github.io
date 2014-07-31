@@ -122,7 +122,9 @@ body {
 }
 
 .navbar-header > a:hover {
-   box-shadow: 0 -30px #e7e7e7 inset;
+
+ box-shadow: inset 0px -10px 0px pink, inset 175px 0px 0px #e7e7e7;
+/*  box-shadow: inset 0 -10px 0px #e7e7e7;*/
      -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
@@ -130,6 +132,7 @@ body {
   /* ...and now for the proper property */
   transition:.5s;
 }
+
 
 .navbar-header > a {
   font-family: Times;
