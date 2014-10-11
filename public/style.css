@@ -133,7 +133,7 @@ body {
 }
 
 .navbar-header > a:hover {
- box-shadow: -10px -10px 0px pink inset;/*, inset 20rem 0px 0px #e7e7e7;*/
+ box-shadow: -10px -10px -10px pink inset;/*, inset 20rem 0px 0px #e7e7e7;*/
  /*  box-shadow: inset 0 -10px 0px #e7e7e7;*/
  -o-transition:.5s;
  -ms-transition:.5s;
