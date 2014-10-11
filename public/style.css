@@ -152,6 +152,9 @@ body {
 
 .navbar-default {
   background-color: #fff;
+  opacity: 0.4;
+  filter: alpha(opacity=40); /* For IE8 and earlier */
+
 }
 
 @font-face {
