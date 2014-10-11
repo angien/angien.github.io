@@ -147,15 +147,13 @@ body {
 .navbar-header > a {
   font-family: Times;
   font-size: 60px;
-    opacity: 1;
-    filter: alpha(opacity=100); /* For IE8 and earlier */
 
 }
 
 .navbar-default {
-  background-color: #fff;
-  opacity: 0.4;
-  filter: alpha(opacity=40); /* For IE8 and earlier */
+  background-color: rgba(255,255,255,0.7);    /* 70% opaque red */
+  /*opacity: 0.4;
+  filter: alpha(opacity=40); *//* For IE8 and earlier */
 
 }
 
