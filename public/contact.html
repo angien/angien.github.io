@@ -31,32 +31,32 @@
 
     <div class="row marketing">
           
-     <form>
+     <form method="post" action="email.php">
 
       <div class="col-lg-6">
        <p>
         <div class="input-group">
         <span class="input-group-addon"><span class="glyphicon glyphicon-font"></span></span>
-          <input type="text" class="form-control" placeholder="Name">
+          <input type="text" name="name" class="form-control" placeholder="Name">
         </div>
       </p>
         <p>
           <div class="input-group">
           <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
-          <input type="text" class="form-control" placeholder="Email Address">
+          <input type="text" name="email" class="form-control" placeholder="Email Address">
         </div>
         </p>
         <p>
         <div class="input-group">
           <span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
-          <input type="text" class="form-control" placeholder="Subject">
+          <input type="text" name="subject" class="form-control" placeholder="Subject">
         </div>
       </p>
       </div><!-- /.col-lg-6 -->
 
           <div class="col-lg-6">
              <p><div class="input">
-      <textarea class="form-control" rows="5" placeholder="Message" style="resize:none"></textarea>
+      <textarea class="form-control" name="message" rows="5" placeholder="Message" style="resize:none"></textarea>
       <!--<span class="input-group-addon btn btn-info">Send</span>-->
     
     </div></p><!-- /input-group -->
