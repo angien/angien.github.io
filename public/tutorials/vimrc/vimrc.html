@@ -14,7 +14,7 @@
   <link href="/bootstrap-3.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="style.css" rel="stylesheet">
+  <link href="/style.css" rel="stylesheet">
 
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -30,9 +30,9 @@
       <div class="container container-narrow">
       <div class="jumbotron">
         <h2>Vimrc</h2>
-        <p>Click the button below to download my .vimrc file. Place this into your home directory!</p>
+        <p>Click the button below to download my vimrc file. Rename it to .vimrc and place this into your home directory!</p>
         <p>
-          <a class="btn btn-lg btn-primary" href="/.vimrc" target="0" role="button">Download &raquo;</a>
+          <a class="btn btn-lg btn-primary" href="vimrc" target="0" role="button">Download &raquo;</a>
         </p>
       </div>
 
@@ -53,7 +53,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="/bootstrap-3.2.0/dist/js/bootstrap.min.js"></script>
     <script>
-    $.get("../../navbar.html").success(function (data) {
+    $.get("/navbar.html").success(function (data) {
       $("body").prepend(data);
     });
     </script>

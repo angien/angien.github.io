@@ -14,7 +14,7 @@
     <link href="/bootstrap-3.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="style.css" rel="stylesheet">
+    <link href="/style.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -52,7 +52,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="/bootstrap-3.2.0/dist/js/bootstrap.min.js"></script>
     <script>
-      $.get("navbar.html").success(function (data) {
+      $.get("/navbar.html").success(function (data) {
         $("body").prepend(data);
       });
     </script>
