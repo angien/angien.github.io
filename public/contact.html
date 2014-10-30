@@ -125,18 +125,10 @@
 
     switch ($.urlParam('q')) {
       case 'success':
-        $("form").prepend('
-            <div class="panel panel-primary">
-              <div class="panel-heading">
-                Success!
-              </div>
-              <div class="panel-body">
-                Thanks! Your message has been received.
-              </div>
-            </div>');
+        $("form").prepend('<div class="panel panel-success"><div class="panel-heading">Success!</div><div class="panel-body">Thanks! Your message has been received.</div></div>');
         break;
       case 'error':
-        $("form").prepend('Something went wrong! Please try again :(');
+        $("form").prepend('<div class="panel panel-danger"><div class="panel-heading">Oh no!</div><div class="panel-body">Something went wrong! Please try again later or send me an email <a href="mailto:angienguyen629@gmail.com" target="_top">here</a>. :(</div></div>');
         break;
       default:
         break;
