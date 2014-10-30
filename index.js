@@ -10,9 +10,9 @@ app.post('/email', function(req, res) {
 
 	// create reusable transporter object using SMTP transport
 	var transporter = nodemailer.createTransport({
-	    service: 'Gmail',
+	    service: 'Yahoo',
 	    auth: {
-	        user: 'angienguyen629@gmail.com',
+	        user: 'angienguyen629@yahoo.com',
 	        pass: 'Cows411923'
 	    }
 	});
