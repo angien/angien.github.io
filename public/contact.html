@@ -111,6 +111,29 @@
     $.get("/navbar.html").success(function (data) {
       $("body").prepend(data);
     });
+
+    // get the params in the URL, returns true or false
+    $.urlParam = function(name){
+    var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+      if (results==null){
+         return null;
+      }
+      else{
+         return results[1] || 0;
+      }
+    }
+
+    switch ($.urlParam('q')) {
+      case 'success':
+        $("form").prepend('Thanks! Your message has been received.');
+        break;
+      case 'error':
+        $("form").prepend('Something went wrong! Please try again :(');
+        break;
+      default:
+        break;
+    }
+
     </script>
   </body>
   </html>
