@@ -120,9 +120,7 @@
     }
 
     switch ($.urlParam('q')) {
-      case 'success':
-      <div class="alert alert-danger" role="alert">
-       
+      case 'success': 
         $("form").prepend('<div class="alert alert-success"><div class="panel-heading">Success! Thanks! Your message has been received.</div>');
         break;
       case 'error':
