@@ -40,6 +40,21 @@ body {
      text-shadow: 2px 2px #000000;
 }
 
+/*.logo a:hover {
+ background-color: #e7e7e7;
+    
+
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}*/
+
+.navbar-brand:hover {
+  color: #AAA;
+}
+
 /* Customize container */
 @media (min-width: 768px) {
   .container-narrow {
@@ -73,6 +88,7 @@ body {
 .marketing p + h4 {
   margin-top: 28px;
 }
+
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
