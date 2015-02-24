@@ -32,27 +32,31 @@ body {
   border-top: 1px solid #e5e5e5;
 }
 
+
 .logo a {
     font-family: 'Lobster', cursive;
-    font-size: 46px;
+    font-size: 60px;
     font-weight: 400;
-    color: #555;
-     text-shadow: 2px 2px #000000;
+    text-shadow: 2px 2px #000000;
 }
 
-/*.logo a:hover {
- background-color: #e7e7e7;
-    
 
+.logo a:hover {
+  
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition:.5s;
-}*/
+}
 
-.navbar-brand:hover {
-  color: #AAA;
+/* changes color of logo */
+.navbar-default .navbar-brand{
+
+}
+
+.navbar-default .navbar-brand:hover{
+  color:#fff;
 }
 
 /* Customize container */
