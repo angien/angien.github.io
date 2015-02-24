@@ -185,7 +185,7 @@ body {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("css/dist/fonts/opensans-regular-webfont.eot") format("embedded-opentype"), url("css/dist/fonts/opensans-regular-webfont.woff") format("woff"), url("css/dist/fonts/opensans-regular-webfont.ttf") format("truetype"), url("css/dist/fonts/opensans-regular-webfont.svg") format("svg");
+  src: url("dist/fonts/opensans-regular-webfont.eot") format("embedded-opentype"), url("dist/fonts/opensans-regular-webfont.woff") format("woff"), url("dist/fonts/opensans-regular-webfont.ttf") format("truetype"), url("dist/fonts/opensans-regular-webfont.svg") format("svg");
 }
 
 .col-lg-6 > h4 > a:hover {
