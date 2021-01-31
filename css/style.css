@@ -1,0 +1,428 @@
+html, body {
+  font-family: 'Lato', Arial, sans-serif;
+  color: #777;
+  font-weight: 400;
+  font-size: 18px;
+}
+.navbar .dropdown-menu {
+  margin-top: 0px;
+}
+
+.navbar-header {
+  background: #FFFFFF;
+}
+
+.typer {
+  text-align: left;
+  text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  -webkit-transition: text-shadow 1s linear;
+  -moz-transition: text-shadow 1s linear;
+  -o-transition: text-shadow 1s linear;
+  transition: text-shadow 1s linear;
+}
+
+.media {
+  background: #FFFFFF;
+    border-radius: 25px;
+  padding: 20px;
+}
+
+.margin {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.left-text {
+  text-align: left;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.duration {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border: 0px;
+}
+
+.help-block {
+  color:red;
+  font-size: 14px;
+}
+
+.inner-body {
+  padding-top: 70px;
+  padding-bottom: 20px;
+  background: #e7e7e7 url(../img/pattern.jpg);
+}
+
+.input {
+  margin-bottom: 10px;
+}
+
+.btn {
+  height: 46px;
+  margin: 0;
+  padding: 0 15px 0 15px;
+  background: var(--main-accent-color);
+  border: 0;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 46px;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,.25);
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.25);
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.25);
+  -o-transition: all .2s;
+  -moz-transition: all .2s;
+  -webkit-transition: all .2s;
+  -ms-transition: all .2s;
+}
+
+.btn:hover, .btn:focus  {
+  background: var(--main-accent-hover-color);
+  color: #fff;
+}
+
+.btn:active{
+  background: var(--main-accent-color);
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+}
+
+.inner-container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.headline {
+  text-align: center;
+  max-width: 87.5em;
+  padding-right: 1em;
+  padding-left: 1em;
+  margin: 2em auto 3em;
+}
+
+.headline h3 {
+  font-size: 32px;
+  font-weight: 400;
+  color: #4d4d4d;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-shadow: 1px 2px 1px #fff;
+}
+.col-md-4 h3 {
+  text-transform: uppercase;
+  text-shadow: 1px 2px 1px #fff;
+  margin-top:0px;
+}
+
+.split {
+  height: 1px;
+  width: 50%;
+  margin: 60px auto;
+  background-color: #ddd;
+}
+
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #999;
+  /*border-top: 1px solid #e5e5e5;*/
+}
+
+.media-heading {
+  font-weight: bold;
+}
+
+
+.logo {
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  font-weight: 400;
+  text-shadow: 2px 2px #bbb;
+
+}
+
+:root {
+  --main-accent-color: #7C67BC; /* e75967 */
+  --main-accent-hover-color: #6C54B6; /* A62639 */
+}
+
+/* changes color of logo */
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color:var(--main-accent-color);
+
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+  0%   {color: var(--main-accent-color);} 
+  100%  {color: #565676;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+  0%   {color: var(--main-accent-color);} 
+  100%  {color: #565676;}
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  font-family: Open Sans;
+  background-color: ;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+.navbar-header > a {
+  font-size: 60px;
+
+}
+
+
+
+
+
+.navbar-left > li:hover {
+  background-color: #e7e7e7;
+
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+}
+
+.navbar-right > li:hover {
+  background-color: #e7e7e7;
+
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+}
+
+.navbar-nav > li > a {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+
+.navbar-nav .open .dropdown-menu {
+  background-color: #fff;
+}
+
+.dropdown-header {
+  font-weight: bold;  
+
+  text-transform: uppercase;
+}
+
+.space {
+  padding-right: 5px;
+}
+.align-i {
+  vertical-align: middle;
+}
+
+
+/* Customize container */
+@media screen and (min-width: 768px) {
+  .typer {
+    text-align: left;
+  }
+
+  .left-text {
+    text-align: left;
+  }
+
+  .container-narrow {
+    padding-left: 10%;
+    padding-right:10%;
+  }
+  .container-semi-narrow {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .dropdown-menu {
+    border-radius:0px;
+    min-width:200px;
+  }
+
+  .margin {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .headline h3 {
+    padding: 0 20px;
+    font-size: 28px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+  .navbar-nav > li > a {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 11px;
+    padding-bottom: 16px;
+  }
+
+  .navbar-default {
+    background-color: rgba(255,255,255,1);
+  }
+
+  a:hover {
+    -o-transition:.2s;
+    -ms-transition:.2s;
+    -moz-transition:.2s;
+    -webkit-transition:.2s;
+    /* ...and now for the proper property */
+    transition:.2s;
+  }
+  a.green:hover, .navbar-left .active > a.green { box-shadow: 0 -10px #61C9A8 inset; }
+  a.purple:hover, .navbar-left .active > a.purple { box-shadow: 0 -10px #565676 inset;  }
+  a.teal:hover,.navbar-left .active > a.teal { box-shadow: 0 -10px #5bc0de inset;  }
+  a.gold:hover,.navbar-left .active > a.gold{ box-shadow: 0 -10px gold inset;  }
+  a.pink:hover,.navbar-left .active > a.pink{ box-shadow: 0 -10px #e75967 inset;}
+
+
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+  }
+
+
+  .col-md-4 {
+    padding-bottom: 40px;
+  }
+}
+
+
+@media screen and (min-width: 993px) {
+  .typer {
+    text-align: right;
+  }
+
+  .left-text {
+    text-align: right;
+  }
+
+  .container-semi-narrow {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .logo {
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    font-weight: 400;
+    text-shadow: 3px 3px #bbb;
+
+  }
+  .margin {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .navbar-fixed-top {
+    width:90%;
+  }
+  .inner-body {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    width:90%;
+    box-shadow: 10px 0px 100px 2px #000;
+  }
+  body {
+    background-image: url('../img/bg7.png');
+
+    position: absolute;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+
+::-moz-selection {
+  text-shadow: none;
+  background: #11a7fb;
+}
+
+::selection {
+  text-shadow: none;
+  background: #11a7fb;
+}
+
+img::selection {
+  background: 0 0;
+}
+
+img::-moz-selection {
+  background: 0 0;
+}
+
+body {
+  webkit-tap-highlight-color: #11a7fb;
+}
