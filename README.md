@@ -1,2 +1,2 @@
 # angien.github.io
-Just redirects to my actual website
+This is my personal website
