@@ -4,6 +4,12 @@ html, body {
   font-weight: 400;
   font-size: 18px;
 }
+
+:root {
+  --main-accent-color: #5079A7; /* e75967 */
+  --main-accent-hover-color: #6C54B6; /* A62639 */
+}
+
 .navbar .dropdown-menu {
   margin-top: 0px;
 }
@@ -169,11 +175,6 @@ html, body {
   font-weight: 400;
   text-shadow: 2px 2px #bbb;
 
-}
-
-:root {
-  --main-accent-color: #7C67BC; /* e75967 */
-  --main-accent-hover-color: #6C54B6; /* A62639 */
 }
 
 /* changes color of logo */
