@@ -136,6 +136,9 @@ html, body {
   margin-top:0px;
 }
 
+.col-lg-4 {
+}
+
 .split {
   height: 1px;
   width: 50%;
@@ -358,7 +361,7 @@ html, body {
 }
 
 
-@media screen and (min-width: 993px) {
+@media screen and (min-width: 900px) {
   .typer {
     text-align: right;
   }
@@ -405,6 +408,55 @@ html, body {
     background-size: cover;
   }
 }
+
+/*
+@media screen and (min-width: 1280px) {
+  .typer {
+    text-align: right;
+  }
+
+  .left-text {
+    text-align: right;
+  }
+
+  .container-semi-narrow {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .logo {
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    font-weight: 400;
+    text-shadow: 3px 3px #bbb;
+
+  }
+  .margin {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .navbar-fixed-top {
+    width:90%;
+  }
+  .inner-body {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    width:90%;
+    box-shadow: 10px 0px 100px 2px #000;
+  }
+}
+*/
+
+.box{
+  box-model: border-box;
+  border-left: 10px solid transparent;
+
+  border-right: 10px solid transparent;
+  background-clip:padding-box;
+}
+
+
 
 ::-moz-selection {
   text-shadow: none;
