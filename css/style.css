@@ -422,6 +422,10 @@ html, body {
   .media {
     margin-top: 0px;
   }
+  .blurb-row {
+    margin-bottom: 20px;
+  }
+
 }
 
 ::-moz-selection {
