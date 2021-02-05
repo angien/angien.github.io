@@ -12,6 +12,10 @@ html, body {
   font-size: 18px;
 }
 
+.blurb-row {
+  margin-bottom: 16px;
+}
+
 .pull-left {
   margin-right: 10px;
 }
@@ -419,8 +423,11 @@ html, body {
 }
 
 
-
-
+@media screen and (min-width: 1200px) {
+  .media {
+    margin-top: 0px;
+  }
+}
 
 ::-moz-selection {
   text-shadow: none;
