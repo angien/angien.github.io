@@ -10,7 +10,7 @@
 
         $(function(){
           $(".typer").typed({
-            strings: ["My name is Angie Nguyen and I like to code."],
+            strings: ["My name is Angie Portillo (formerly Angie Nguyen) and I like to code."],
             typeSpeed: 30,
           //loop: true,
           //backDelay: 5000,
